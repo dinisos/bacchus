@@ -1,0 +1,80 @@
+#define _CRT_SECURE_NO_WARNINGS 1
+
+#include <stdio.h>
+
+//int main()
+//{
+//	int i = 1;
+//	while (i <= 100)
+//	{
+//		if(i % 2 == 1)
+//		  printf("%d\n", i);
+//		i++;
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int ret = 0;
+//	int ch = 0;
+//	char password[20] = { 0 };
+//	printf("输入密码：>");
+//	scanf("%s", password);
+//	while ((ch = getchar()) != '\n')
+//	{
+//		;
+//	}
+//	printf("是否确认(Y/N):>");
+//	ret = getchar();
+//	if (ret == 'Y')
+//	{
+//		printf("确认成功\n");
+//	}
+//	else
+//	{
+//		printf("取消确认\n");
+//	}
+//	return 0;
+//}
+
+//int main()
+//{
+//	int i = 0;
+//	int n = 0;
+//	int ad = 1;
+//	scanf("%d", &n);
+//	for (i = 1; i <= n; i++)
+//	{
+//		ad = ad * i;
+//	}
+//	printf("阶乘=%d\n", ad);
+//	return 0;
+//}
+
+int main()
+{
+	int i = 0;
+	int n = 0;
+	int ad = 1;
+	int ret = 0;
+	scanf("%d", &n);
+	for (i = 1; i <= n; i++)
+	{
+		ad = ad * i;
+		ret = ret + ad;
+	}
+	printf("%d\n", ret);
+	return 0;
+}
+
+//int main()
+//{
+//	int i = 10;
+//	do
+//	{
+//		printf("%d\n", i);
+//		i++;
+//	} while (i <= 5);
+//	return 0;
+//}
